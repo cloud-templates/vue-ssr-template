@@ -17,7 +17,7 @@ npm run dev
 npm run build
 
 # serve in production mode
-npm run build
+npm start
 
 # build for production and view the bundle analyzer report
 npm run build --report
