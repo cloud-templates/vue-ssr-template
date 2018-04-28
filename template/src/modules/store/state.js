@@ -1,5 +1,5 @@
 const state = {
-  weatherInfo: {}
+  orderInfo: {}
 };
 
 export default state;

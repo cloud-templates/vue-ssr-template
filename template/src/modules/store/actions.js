@@ -1,19 +1,16 @@
 import services from 'services';
 
 const actions = {
-  async FETCH_TENANT_INFO({commit}) {
-    const data = {
-      city: 'CHSH000000'
-    };
-    let res = null;
+  async FETCH_ORDER_INFO({commit}) {
+    const data = {};
 
     try {
-      res = await services.heartIndexFuture24h({data, method: 'get'});
+      const res = await services.purchaseOrderDetails({data, method: 'get'});
+      commit('FETCH_ORDER_INFO', res);
     } catch (err) {
-      res = err;
       console.log('异常' + JSON.stringify(err));
     }
-    commit('FETCH_TENANT_INFO', res);
+
   }
 }
 export default actions;

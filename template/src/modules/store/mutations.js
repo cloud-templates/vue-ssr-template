@@ -1,6 +1,6 @@
 const mutations = {
-  FETCH_TENANT_INFO (state, info) {
-    state.weatherInfo = info;
+  FETCH_ORDER_INFO (state, info) {
+    state.orderInfo = info;
   }
 };
 
