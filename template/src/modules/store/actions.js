@@ -10,7 +10,6 @@ const actions = {
     } catch (err) {
       console.log('异常' + JSON.stringify(err));
     }
-
   }
 }
 export default actions;
