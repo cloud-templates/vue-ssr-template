@@ -1,0 +1,12 @@
+{
+  "port": 5000,
+  "host": "localhost",
+  "fe": {
+    "pageSize": 30,
+    "storageNamespace": "vue-ssr-template_",
+    "OPEN_PREFIX": "",
+    "UPGRADE_PREFIX": "upgrade/",
+    "UPLOADING_PREFIX": "fileOpenapi/",
+    "API_HOME": "http://tj.nineton.cn/"
+  }
+}
